@@ -1,0 +1,32 @@
+/* Центрирование основного контента */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: lightblue;
+}
+
+/* Футер закреплен внизу */
+footer {
+    margin-top: auto;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Навигационное меню */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Карточки */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-header {
+    font-size: 1.25rem;
+}

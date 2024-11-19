@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% block title %}Контакты{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card border-success">
+            <div class="card-header bg-success text-white">Наши контакты</div>
+            <div class="card-body">
+                <h5 class="card-title">Свяжитесь с нами</h5>
+                <p class="card-text"><strong>Телефон:</strong> +7 (123) 456-78-90</p>
+                <p class="card-text"><strong>Email:</strong> contact@example.com</p>
+                <p class="card-text"><strong>Адрес:</strong> г. Москва, ул. Ленина, д. 10</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
